@@ -1,0 +1,368 @@
+---
+title: "Week 11: Phonetics II"
+subtitle: "Recitation for LING 201:02"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      bibliography:  bibliography.bib
+    keep_tex: true
+header-includes:
+- \usepackage{qtree}
+- \newenvironment{dummy}{}{}
+documentclass: ../includes/tex
+---
+
+# Recitation Topics (DELETE!!!)
+
+- review anatomy of the upper vocal tract- **print out the blank sheet** and have students fill it in
+
+- review consonant articulation: voicing, place, manner
+
+
+
+
+
+
+
+---
+
+class: center, middle
+
+# Review (from lecture)
+
+---
+
+# Review
+
+Last week was **vowels**, now we're moving on to the other main type of segment in phonetics... **consonants!**
+
+--
+
+**Vowel vs. consonant articulation**
+
+- vowels have **unobstructed airflow** 
+
+- consonants have either **partial or complete obstruction** in the vocal tract 
+
+--
+
+- vowels are **voiced** 
+
+- consonants *may or may not be* **voiced**
+
+---
+
+# Consonant features 
+
+**Voicing:** vibration of the vocal cords
+
+**Place:** where is the obstruction of airflow in the vocal tract?
+
+**Manner** what type of obstruction of airflow occurs?
+
+
+---
+
+# Consonant features
+
+The **columns** are for ***place*** 
+
+The **rows** are for ***manner***
+
+When there's two in a cell, the **right** is **voiced**
+
+???consonant table image
+
+
+
+
+
+---
+
+# Review (place of articulation)
+
+**Where is the obstruction in the vocal tract?**
+
+- Labials: lips
+
+  - **bilabials:** both lips
+  
+  - **Labiodentals:** lower lips and upper teeth
+
+--
+
+- Coronals: between the tongue tip/blade and the front part of the mouth
+
+  - **dentals:** tongue and teeth 
+  
+  - **alveolars:** tongue and alveolar ridge
+  
+  - **postalveolars:** tongue and the space right behind alveolar ridge
+
+---
+
+# Review (place of articulation)
+
+**Where is the obstruction in the vocal tract?**
+
+- **retroflexes:** the tongue tip is arched backward
+
+--
+
+- **palatals:** tongue body raised against the hard palate 
+
+--
+
+- **velars:** back of tongue against the soft palate (=velum)
+
+--
+
+- gutturals: pronounced in the very back of the mouth 
+  
+  - **uvulars:** back of tongue against the uvula
+  
+  - **pharyngeals:** root of tongue obstructing the pharynx
+  
+  - **glottals:** vocal folds obstructing the glottis
+  
+
+
+---
+
+# Review (manner of articulation)
+
+***What type of obstruction is it?*** 
+
+- is it complete blockage of airflow?
+
+  - stops/plosives
+  
+  - stops can be **aspirated** (pronounced with a tiny [h] sound after the obstruction is released)
+  
+  - trills, taps, flaps: obstruction doesn't last long enough to cause a release of pressure at the end
+  
+--
+
+- is it partial blockage of airflow?
+
+  - fricatives 
+  
+  - approximants (less obstruction than fricatives)
+  
+  - laterals (obstruction in the center, but air flows past the tongue on the side(s))
+  
+
+---
+
+# Review (manner of articulation)
+
+***What type of obstruction is it?***
+
+- is the airflow blocked in *one part* of the vocal tract but allowed to flow through a different part?
+
+  - affricates: a combination between stops and fricatives
+
+  - nasals: complete obstruction through the **oral cavity** but air is redirected to flow through the **nasal cavity**
+
+---
+
+# Review (manner sound classes)
+
+Manner of articulation can be grouped into **sound classes**
+
+- **rhotics:** *r*-like sounds
+
+- **liquids:** rhotics + laterals 
+--
+
+- **obstruents:** consonants with more obstruction 
+
+  - *stops, fricatives, affricates*
+
+--
+
+- **sonorants:** consonants with less obstruction
+
+  - *nasals, liquids, approximants*
+  
+---
+
+# Review (group work!?)
+
+```{r, out.height="150%", out.width="150%", echo=FALSE}
+knitr::include_graphics("./images/fill_in_blanks.png")
+```
+
+---
+
+class: center, middle
+
+# Practice
+
+---
+
+# Practice (description)
+
+**Give a full description of EACH consonant in the following words, and give the corresponding IPA symbol.**
+
+*Ex. [p] is a voiceless bilabial stop*
+
+1. move
+
+2. hide
+
+3. cloth
+
+4. stove
+
+5. gosh
+
+6. bank
+
+7. thrift
+
+8. hard
+
+9. fork
+
+---
+
+# Practice (description)
+
+**Give the full description of each IPA symbol, and give an example of an English word with that phoneme in it.**
+
+1. [f]
+
+2. [l]
+
+3. [ŋ]
+
+4. [k]
+
+5. [ʔ]
+
+6. [w]
+
+7. [ð]
+
+8. [t͡ʃ]
+
+9. [θ]
+
+
+---
+
+class: center, middle
+
+# Transcription practice!!!
+
+---
+
+# Transcription practice
+
+**Transcribe into IPA.**
+
+1. water
+
+2. orange
+
+3. extremely
+
+4. portrays
+
+5. successful
+
+6. noises
+
+7. poor
+
+8. technology
+
+9. philosopher
+
+10. handkerchiefs
+
+
+---
+
+# Reading IPA
+
+**What English words do these IPA transcriptions correspond to?**
+
+1. [ˈelbəw]
+
+2. [vajəˈlɪn]
+
+3. [ˈajlənd]
+
+4. [ˈpiːpl]
+
+5. [ˈdʒʌmpər]
+
+6. [ˈdendʒərəs]
+
+7. [ˈiːzi]
+
+8. [jʌŋ]
+
+9. [ɡreps]
+
+10. [rajs]
+
+---
+
+# Reading IPA
+
+**What English words do these IPA transcriptions correspond to?**
+
+1. [ˈbɑːθruːm]
+
+2. [ˈʌŋkl]
+
+3. [ˈrʌbər]
+
+4. [rajt]
+
+5. [ˈejrpɔrt]
+
+6. [ɔːˈɡʌst]
+
+7. [jɪr]
+
+8. [ɡəˈrɪlə]
+
+9. [ˈbʌtərflaj]
+
+10. [məˈskiːtəw]
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+# Coming up: Phonology!
+
+### Reading 
+
+- read the **phonetics chapter** if you haven't already!
+
+- read the **phonology chapter** from the Grady textbook, for **Nov 19**.
+
+### Homework 
+

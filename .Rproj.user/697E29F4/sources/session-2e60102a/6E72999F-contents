@@ -1,0 +1,654 @@
+---
+title: "Week 10: Phonetics"
+subtitle: "Recitation for LING 201:02"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      bibliography:  bibliography.bib
+    keep_tex: true
+header-includes:
+- \usepackage{qtree}
+- \newenvironment{dummy}{}{}
+documentclass: ../includes/tex
+---
+
+
+
+
+
+
+
+
+class: center, middle
+
+# Welcome to Phonetics! 
+
+
+```{r, out.height="60%", out.width="60%", echo=FALSE}
+knitr::include_graphics("./images/drake.jpg")
+```
+
+
+---
+
+# Review from lecture 
+
+Now we're looking at the smallest element of language: **sounds**!
+
+--
+
+- **Phonetics & phonology:** study of the sounds of language
+
+--
+
+**Phonetics:** study of speech sounds as a physical phenomenon
+
+--
+
+**Phonology:** study of how languages organize speech sounds into a system
+
+--
+
+- organization into words, in certain contexts, which sounds are contrastive... etc.
+
+
+
+
+---
+
+class: middle, center
+
+# Sound =/= Spelling 
+
+---
+
+# Sound vs. Spelling 
+
+- no language has a writing system (orthography) that perfectly represents its speech sounds, and there are reasons for this
+
+--
+
+  - pronunciation **changes over time**! writing doesn't always reflect these changes, though (examples: *knight, gnat*)
+
+--
+
+  - pronunciation **varies by place and social group**! writing doesn't usually reflect this variation (examples: *pecan, caramel, cot/caught, Mary/marry/merry, bag*)
+
+--
+
+  - **loanwords** often have spellings that reflect the pronunciation in the source language, not target language (examples: *buffet, zucchini*)
+    
+--
+
+- but it becomes a problem when we want to talk precisely about **phonetics**
+
+**So, how do we accurately represent the pronunciation of a word?**
+
+--
+
+- **A:** Phonetic description of phonemes' features; transcribed with International Phonetic Alphabet
+
+---
+
+class: middle, center
+
+# Vowel articulatory features
+
+---
+
+# Vowel articulatory features (the big 3)
+
+- **Tongue height:** how high is the tongue in the mouth?
+
+--
+
+  - high, mid, low
+  
+  - can be further divided into tense vs. lax vowels (**lax:** re*lax*ed tongue)
+
+--
+
+- **Tongue backness:** is the tongue further forward or back in the mouth?
+
+--
+
+  - front, central, back
+
+--
+
+- **Lip roundedness:** are the lips rounded or unrounded?
+
+--
+
+  - rounded, unrounded
+  
+  
+---
+
+# Vowel articulatory features
+
+**Articulation:** how the vocal tract moves to produce sounds
+
+.pull-left[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/mouth_vowels.webp")
+```
+]
+
+
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/vowel_space.png")
+```
+]
+
+
+---
+
+# Other vowel features!
+
+- **Nasalization:** articulated by lowering the velum/soft palate, so that air flows through both the nose and mouth
+
+--
+
+  - Portuguese *pão* means "bread" but the non-nasal *pao* means "stick" or.....something else inappropriate.
+
+--
+
+  - since adding or removing the nasality feature changes the meaning completely, we can say that nasalization is **contrastive** in Portuguese
+
+--
+
+- **Length:** long vowels contrast with short vowels
+
+--
+
+  - Ojibwe (Algonquian) *nipim* "to live" vs. *niipim* "to be cold"
+
+--
+
+- **Pitch:** tonal languages contrast pitch 
+
+--
+
+  - White Hmong (Hmong-Mien) *kuv* "I" vs. *kuj* "also"
+
+--
+
+  - **Note** in this writing system (RPA), the tone is indicated by the final *written* letter of the word. v = mid-rising tone; j = high falling tone
+
+
+
+
+---
+
+class: middle, center
+
+# International Phonetic Alphabet (IPA)
+
+## Interactive chart [here](https://www.ipachart.com/)! :)
+
+---
+
+# IPA... NOT A BEER!
+
+.pull-left[
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/phonetics_not_beer.jpeg")
+```
+]
+
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/fuck_that_drink.jpg")
+```
+]
+
+---
+
+# International Phonetic Alphabet
+
+To accurately represent speech sounds, we use the **International Phonetic Alphabet (IPA)**
+
+--
+
+- one symbol = one sound
+
+  - these "one sound"s are called **phonemes**
+
+--
+
+- uses the same symbols for all spoken languages 
+
+- all spoken languages use some subset of the symbols on the full IPA chart 
+
+---
+
+# International Phonetic Alphabet
+
+- many IPA symbols represent roughly the same sounds as the corresponding English letter
+
+  - [p, t, k, b, d, g, f, v, s, z, h, m, n, l]
+
+--
+
+- **but,** some IPA symbols do not
+
+  - IPA [ j ] = English *<*y*>* 
+  
+  - *yes* = [jɛs]
+
+  - [c, q, x] and most vowels **don't** correspond to English letters!
+  
+---
+
+# International Phonetic Alphabet
+
+IPA is used for **phonetic transcription:** writing the exact sounds of a speech sample
+
+--
+
+**Some conventions:**
+
+- phonetic transcriptions are written between **[square brackets]**
+
+  - [bə.ˈnæ.nə]
+
+--
+
+- orthpgraphy/spelling is written in ***italics*** or in **< angle brackets >**
+
+  - *banana* or *<* banana *>*
+
+--
+
+- **all sounds and only sounds** are written:
+
+  - *phone* [ˈfown] (don't write silent letters, *ph* = one sound [f])
+  
+--
+  
+- a dot **(.)** indicates **syllable** divisions: *pronunciation* [prə.ˌnʌn.si.ˈej.ʃən]
+
+- primary and secondary **stress** are indicated with **(ˈ)** and **(ˌ) before** the stressed syllable
+
+---
+
+# Steps for transcription (added after class)
+
+1. say the word out loud 
+
+2. which IPA symbols match **what you're saying**? 
+
+  - its all about what you're saying, and NOT about how the word is written
+  
+  - you can either describe it based on where you think your tongue is **OR** find the symbol on the interactive chart that sounds closest to what you're saying
+  
+  - either way, you should get the same result
+
+
+
+---
+
+class: middle, center
+
+# Practice! 
+
+
+
+
+
+
+
+---
+
+# Identifying vowels
+
+**(1) Identify which vowels are in the following words, (2) give the IPA symbol for them, and (3) define them using the big three features.**
+
+1. cat **[æ]**
+
+2. thrift **[ɪ]**
+
+3. red **[ɛ]**
+
+4. reed **[i]**
+
+5. hard **[ɑ]**
+
+6. boot **[u]**
+
+7. cut **[ʌ]**
+
+8. pet **[ɛ]**
+
+9. pot **[ɑ] or [ɔ]**
+
+10. fork **[o]**
+
+
+---
+
+# Transcription practice
+
+**Transcribe the same words into IPA.**
+
+1. cat 
+
+2. thrift
+
+3. red
+
+4. reed
+
+5. hard
+
+6. boot
+
+7. cut
+
+8. pet
+
+9. pot 
+
+10. fork
+
+---
+
+# Transcription practice
+
+**What English words do these IPA transcriptions correspond to?**
+
+1. [ˈkæ.lən.dɹ] **calendar**
+
+2. [ˈbɹɪŋ.ɪŋ] **bringing**
+
+3. [ˈtɛl.ə.ˌvɪʒ.n] **television**
+
+4. [ˈðiz] **these**
+
+5. [ˈθɪŋk] **think**
+
+6. [ˈʃæk] **shack**
+
+7. [ˈnʌ.θɪŋ] **nothing**
+
+8. [ˈplʌk] **pluck**
+
+9. [mejk] **make**
+
+10. [klawdz] **clouds**
+
+---
+
+# More complex words
+
+**Transcribe into IPA.**
+
+1. water
+
+2. orange
+
+3. extremely
+
+4. portrays
+
+5. successful
+
+6. noises
+
+7. poor
+
+8. technology
+
+9. philosopher
+
+10. handkerchiefs
+
+---
+
+# More complex words
+
+**What English words do these IPA transcriptions correspond to?**
+
+1. [ˈelbəw]
+
+2. [vajəˈlɪn]
+
+3. [ˈajlənd]
+
+4. [ˈpiːpl]
+
+5. [ˈdʒʌmpər]
+
+6. [ˈdendʒərəs]
+
+7. [ˈiːzi]
+
+8. [jʌŋ]
+
+9. [ɡreps]
+
+10. [rajs]
+
+---
+
+# More complex words
+
+**What English words do these IPA transcriptions correspond to?**
+
+1. [ˈbɑːθruːm]
+
+2. [ˈʌŋkl]
+
+3. [ˈrʌbər]
+
+4. [rajt]
+
+5. [ˈejrpɔrt]
+
+6. [ɔːˈɡʌst]
+
+7. [jɪr]
+
+8. [ɡəˈrɪlə]
+
+9. [ˈbʌtərflaj]
+
+10. [məˈskiːtəw]
+
+---
+
+class: middle, center
+
+# What about signed languages!?
+
+--
+
+## I added this section for fun :)
+
+---
+
+# Signed languages
+
+**Sign phonemes** are smaller units of the sign
+
+--
+
+They're categorized into five **parameters** which are *further* categorized into **primes**
+
+--
+
+**Parameters:**
+
+- handshape
+
+- palm orientation 
+
+- movement 
+
+- location 
+
+- non-manual signals
+
+---
+
+# Signed languages: Parameters
+
+**Palm orientation**
+  
+- palms facing up or down, facing the signer, away from the signer, etc.
+
+**Movement** 
+
+- upwards, downwards, diagonally, zigzag, etc.
+  
+**Location** 
+
+- in the signing space
+
+**Non-manual signals** 
+
+- facial expressions, eyebrow raising/lowering, eye gaze...
+
+- Note: *"manual" = with hands*
+
+---
+
+# Signed languages
+
+## Handshape examples
+
+.pull-left[
+***school***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/school.gif")
+```
+]
+
+.pull-right[
+***impossible***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/impossible.gif")
+```
+]
+
+
+---
+
+# Signed languages
+
+## Location examples
+
+.pull-left[
+***apple***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/apple.gif")
+```
+]
+
+.pull-right[
+***onion***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/onion.gif")
+```
+]
+
+---
+
+# Signed languages 
+
+## Movement examples
+
+.pull-left[
+***airplane***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/airplane.gif")
+```
+]
+
+.pull-right[
+***fly***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/fly.gif")
+```
+]
+
+---
+
+# Signed languages 
+
+## Palm orientation examples
+
+.pull-left[
+***balance***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/balance.gif")
+```
+]
+
+.pull-right[
+***maybe***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/maybe.gif")
+```
+]
+
+---
+
+# Signed language
+
+## Non-manual signals 
+
+
+**Statements** have neutral facial expressions 
+
+**Yes/no questions** (polar questions) have eyebrows raised
+
+**Wh-questions** have eyebrows lowered
+
+---
+
+background-image: url("./images/ipa_heart.jpg")
+background-size: 100% 100%
+background-position: center
+background-repeat: no-repeat
+
+class: center, middle
+
+## .
+
+## <span style="color: blue;">Never EVER</span>
+
+## <span style="color: green;">be frightened by</span>
+
+## <span style="color: red;">phonetics</span>
+
+## <span style="color: blue;">!!!!!</span>
+
+
+
+---
+
+# Coming up: Phonology!
+
+### Reading 
+
+- read the **phonetics chapter** if you haven't already!
+
+- read the **phonology chapter** from the Grady textbook, for **Nov 19**.
+
+### Homework 
+
+- HW6 is due **Nov 9**!
+
+
+
