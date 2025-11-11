@@ -24,8 +24,6 @@ documentclass: ../includes/tex
 
 - review anatomy of the upper vocal tract- **print out the blank sheet** and have students fill it in
 
-- review consonant articulation: voicing, place, manner
-
 
 
 
@@ -36,103 +34,141 @@ documentclass: ../includes/tex
 
 class: center, middle
 
-# Review (from lecture)
+# Review 
 
 ---
 
 # Review
 
-Last week was **vowels**, now we're moving on to the other main type of segment in phonetics... **consonants!**
+Last week was <span style="color: red;">vowels</span>, now we're moving on to the other main type of segment in phonetics... <span style="color: blue;">consonants!</span>
 
 --
 
-**Vowel vs. consonant articulation**
+.pull-left[
+<span style="color: red;">Vowels</span>
 
-- vowels have **unobstructed airflow** 
+- *unobstructed airflow*
 
-- consonants have either **partial or complete obstruction** in the vocal tract 
+- *voiced*
+
+]
 
 --
 
-- vowels are **voiced** 
+.pull-right[
+<span style="color: blue;">Consonants</span>
 
-- consonants *may or may not be* **voiced**
+- *partial or complete obstruction* (in the vocal tract)
+
+- *may or may not be voiced*
+]
+
+--
+
+<span style="color: blue;">Consonant features:</span>
+
+- <span style="color: green;">Voicing:</span> vibration of the vocal cords
+
+- <span style="color: green;">Place:</span> where is the obstruction of airflow in the vocal tract?
+
+- <span style="color: green;">Manner</span> what type of obstruction of airflow occurs?
 
 ---
 
-# Consonant features 
+# Review anatomy
 
-**Voicing:** vibration of the vocal cords
+```{r, out.height="150%", out.width="150%", echo=FALSE}
+knitr::include_graphics("./images/fill_in_blanks.png")
+```
 
-**Place:** where is the obstruction of airflow in the vocal tract?
-
-**Manner** what type of obstruction of airflow occurs?
 
 
 ---
 
-# Consonant features
+class: center, middle
 
-The **columns** are for ***place*** 
+# Review (consonant features)
 
-The **rows** are for ***manner***
+---
 
-When there's two in a cell, the **right** is **voiced**
+# Review (consonant features)
 
-???consonant table image
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/consonants.png")
+```
 
+--
 
+The <span style="color: green;">*columns*</span> are for <span style="color: blue;">*place*</span> 
 
+The <span style="color: green;">rows</span> are for <span style="color: blue;">*manner*</span>
+
+When there's two in a cell, the <span style="color: green;">right</span> is <span style="color: blue;">*voiced*</span>
+
+---
+
+class: center, middle
+
+# Review (place of articulation)
 
 
 ---
 
 # Review (place of articulation)
 
-**Where is the obstruction in the vocal tract?**
-
-- Labials: lips
-
-  - **bilabials:** both lips
-  
-  - **Labiodentals:** lower lips and upper teeth
+***Where is the obstruction in the vocal tract?***
 
 --
 
-- Coronals: between the tongue tip/blade and the front part of the mouth
+- <span style="color: blue;">Labials:</span> lips
 
-  - **dentals:** tongue and teeth 
+  - <span style="color: green;">Bilabials:</span> both lips
   
-  - **alveolars:** tongue and alveolar ridge
+  - <span style="color: green;">Labiodentals:</span> lower lips and upper teeth
+
+--
+
+- <span style="color: blue;">Coronals:</span> between the tongue tip/blade and the front part of the mouth
+
+  - <span style="color: green;">Dentals:</span> tongue and teeth 
   
-  - **postalveolars:** tongue and the space right behind alveolar ridge
+  - <span style="color: green;">Alveolars:</span> tongue and alveolar ridge
+  
+  - <span style="color: green;">Postalveolars:</span> tongue and the space right behind alveolar ridge
 
 ---
 
 # Review (place of articulation)
 
-**Where is the obstruction in the vocal tract?**
-
-- **retroflexes:** the tongue tip is arched backward
+***Where is the obstruction in the vocal tract?***
 
 --
 
-- **palatals:** tongue body raised against the hard palate 
+- <span style="color: blue;">Retroflexes:</span> the tongue tip is arched backward
 
 --
 
-- **velars:** back of tongue against the soft palate (=velum)
+- <span style="color: blue;">Palatals:</span> tongue body raised against the hard palate 
 
 --
 
-- gutturals: pronounced in the very back of the mouth 
+- <span style="color: blue;">Velars:</span> back of tongue against the soft palate (=velum)
+
+--
+
+- <span style="color: blue;">Gutturals:</span> pronounced in the very back of the mouth 
   
-  - **uvulars:** back of tongue against the uvula
+  - <span style="color: green;">Uvulars:</span> back of tongue against the uvula
   
-  - **pharyngeals:** root of tongue obstructing the pharynx
+  - <span style="color: green;">Pharyngeals:</span> root of tongue obstructing the pharynx
   
-  - **glottals:** vocal folds obstructing the glottis
+  - <span style="color: green;">Glottals:</span> vocal folds obstructing the glottis
   
+---
+
+class: center, middle
+
+# Review (manner of articulation)
 
 
 ---
@@ -141,23 +177,45 @@ When there's two in a cell, the **right** is **voiced**
 
 ***What type of obstruction is it?*** 
 
-- is it complete blockage of airflow?
-
-  - stops/plosives
-  
-  - stops can be **aspirated** (pronounced with a tiny [h] sound after the obstruction is released)
-  
-  - trills, taps, flaps: obstruction doesn't last long enough to cause a release of pressure at the end
-  
 --
 
-- is it partial blockage of airflow?
+Is it <span style="color: blue;">complete</span> blockage of airflow?
 
-  - fricatives 
+--
+
+- <span style="color: green;">*stops/plosives*</span>
   
-  - approximants (less obstruction than fricatives)
+  - stops can be **aspirated** (pronounced with a tiny [h] sound after the obstruction is released)
+
+--
+
+- <span style="color: green;">*trills, taps, flaps*</span>
+
+  - obstruction doesn't last long enough to cause a release of pressure at the end
   
-  - laterals (obstruction in the center, but air flows past the tongue on the side(s))
+---
+
+# Review (manner of articulation)
+
+***What type of obstruction is it?***
+
+--
+
+Is it <span style="color: blue;">partial</span> blockage of airflow?
+
+--
+
+- <span style="color: green;">*fricatives*</span>
+  
+- <span style="color: green;">*approximants*</span>
+
+  - have less obstruction than fricatives
+
+--
+  
+- <span style="color: green;">*laterals*</span>
+
+  - obstruction in the center, but air flows past the tongue on the side(s)
   
 
 ---
@@ -166,54 +224,69 @@ When there's two in a cell, the **right** is **voiced**
 
 ***What type of obstruction is it?***
 
-- is the airflow blocked in *one part* of the vocal tract but allowed to flow through a different part?
+--
 
-  - affricates: a combination between stops and fricatives
+Is the airflow blocked in <span style="color: blue;">*one part*</span> of the vocal tract but allowed to flow through a different part?
 
-  - nasals: complete obstruction through the **oral cavity** but air is redirected to flow through the **nasal cavity**
+--
+
+- <span style="color: green;">*affricates*</span>
+
+  - a combination between stops and fricatives
+
+- <span style="color: green;">*nasals*</span>
+
+  - complete obstruction through the *oral cavity* but air is redirected to flow through the *nasal cavity*
 
 ---
 
-# Review (manner sound classes)
+# Review (manner of articulation)
 
 Manner of articulation can be grouped into **sound classes**
 
-- **rhotics:** *r*-like sounds
-
-- **liquids:** rhotics + laterals 
 --
 
-- **obstruents:** consonants with more obstruction 
+.pull-left[
+- <span style="color: blue;">liquids:</span> 
 
-  - *stops, fricatives, affricates*
-
---
-
-- **sonorants:** consonants with less obstruction
-
-  - *nasals, liquids, approximants*
+  - rhotics + laterals 
   
----
+]
 
-# Review (group work!?)
+.pull-right[
+- <span style="color: blue;">rhotics:</span> 
 
-```{r, out.height="150%", out.width="150%", echo=FALSE}
-knitr::include_graphics("./images/fill_in_blanks.png")
-```
+  - *r*-like sounds
+]
+
+--
+
+- <span style="color: blue;">obstruents:</span> 
+
+  - consonants with *more* obstruction 
+
+  - <span style="color: green;">*stops, fricatives, affricates*</span>
+
+--
+
+- <span style="color: blue;">sonorants:</span> 
+
+  - consonants with *less* obstruction
+
+  - <span style="color: green;">*nasals, liquids, approximants*</span>
+  
 
 ---
 
 class: center, middle
 
-# Practice
+# Practice!!!
 
 ---
 
 # Practice (description)
 
-**Give a full description of EACH consonant in the following words, and give the corresponding IPA symbol.**
-
-*Ex. [p] is a voiceless bilabial stop*
+**Give a full description of EACH consonant in the following words, and give the corresponding IPA symbol.** (Ex. [p] *is a voiceless bilabial stop*)
 
 1. move
 
@@ -262,13 +335,15 @@ class: center, middle
 
 class: center, middle
 
-# Transcription practice!!!
+# Practice
+
+## Transcribing and reading IPA!
 
 ---
 
-# Transcription practice
+# Practice: transcribe
 
-**Transcribe into IPA.**
+**Transcribe English into IPA.**
 
 1. water
 
@@ -293,7 +368,7 @@ class: center, middle
 
 ---
 
-# Reading IPA
+# Practice: Reading IPA
 
 **What English words do these IPA transcriptions correspond to?**
 
@@ -319,7 +394,7 @@ class: center, middle
 
 ---
 
-# Reading IPA
+# Practice: Reading IPA
 
 **What English words do these IPA transcriptions correspond to?**
 
@@ -364,5 +439,13 @@ class: center, middle
 
 - read the **phonology chapter** from the Grady textbook, for **Nov 19**.
 
+
 ### Homework 
+
+- HW7 should be published soon...
+
+
+### Scheduling
+
+- Thanksgiving week (the week of Nov 23), **recitation will meet on Wednesday**
 
