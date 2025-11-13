@@ -20,17 +20,6 @@ header-includes:
 documentclass: ../includes/tex
 ---
 
-# Recitation Topics (DELETE!!!)
-
-- review anatomy of the upper vocal tract- **print out the blank sheet** and have students fill it in
-
-
-
-
-
-
-
----
 
 class: center, middle
 
@@ -58,7 +47,7 @@ Last week was <span style="color: red;">vowels</span>, now we're moving on to th
 .pull-right[
 <span style="color: blue;">Consonants</span>
 
-- *partial or complete obstruction* (in the vocal tract)
+- *partial or complete obstruction*
 
 - *may or may not be voiced*
 ]
@@ -101,7 +90,7 @@ knitr::include_graphics("./images/consonants.png")
 
 The <span style="color: green;">*columns*</span> are for <span style="color: blue;">*place*</span> 
 
-The <span style="color: green;">rows</span> are for <span style="color: blue;">*manner*</span>
+The <span style="color: green;">*rows*</span> are for <span style="color: blue;">*manner*</span>
 
 When there's two in a cell, the <span style="color: green;">right</span> is <span style="color: blue;">*voiced*</span>
 
