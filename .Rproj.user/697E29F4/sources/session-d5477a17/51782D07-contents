@@ -82,7 +82,13 @@ knitr::include_graphics("./images/we_feelz_it.jpg")
 knitr::include_graphics("./images/fill_in_blanks.png")
 ```
 
+---
 
+# Review anatomy (answers)
+
+```{r, out.height="150%", out.width="150%", echo=FALSE}
+knitr::include_graphics("./images/vocal_tract_answers.png")
+```
 
 ---
 

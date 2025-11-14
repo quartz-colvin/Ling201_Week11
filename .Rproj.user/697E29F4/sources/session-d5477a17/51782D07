@@ -3,7 +3,7 @@
     "path": "C:/Users/court/OneDrive/Desktop/Ling201_Week11/Ling201_Week11/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "1886921399",
+    "hash": "4119638587",
     "contents": "",
     "dirty": false,
     "created": 1762883740758.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "462,118",
-        "scrollLine": "449"
+        "cursorPosition": "91,0",
+        "scrollLine": "81"
     },
     "folds": "",
-    "lastKnownWriteTime": 1763133700,
+    "lastKnownWriteTime": 1763133964,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1763133700291,
+    "last_content_update": 1763133964183,
     "read_only": false,
     "read_only_alternatives": []
 }
