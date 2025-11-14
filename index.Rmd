@@ -52,7 +52,14 @@ Last week was <span style="color: red;">vowels</span>, now we're moving on to th
 - *may or may not be voiced*
 ]
 
---
+
+```{r, out.height="25%", out.width="25%", echo=FALSE}
+knitr::include_graphics("./images/cat.webp")
+```
+
+---
+
+# Review
 
 <span style="color: blue;">Consonant features:</span>
 
@@ -61,6 +68,11 @@ Last week was <span style="color: red;">vowels</span>, now we're moving on to th
 - <span style="color: green;">Place:</span> where is the obstruction of airflow in the vocal tract?
 
 - <span style="color: green;">Manner</span> what type of obstruction of airflow occurs?
+
+```{r, out.height="50%", out.width="50%", echo=FALSE}
+knitr::include_graphics("./images/we_feelz_it.jpg")
+```
+
 
 ---
 
@@ -271,6 +283,11 @@ class: center, middle
 
 # Practice!!!
 
+
+```{r, out.height="50%", out.width="50%", echo=FALSE}
+knitr::include_graphics("./images/ipa_please.jpg")
+```
+
 ---
 
 # Practice (description)
@@ -407,7 +424,14 @@ class: center, middle
 
 10. [məˈskiːtəw]
 
+---
 
+# Yay!
+
+
+```{r, out.height="75%", out.width="75%", echo=FALSE}
+knitr::include_graphics("./images/i_survived.jpg")
+```
 
 
 
