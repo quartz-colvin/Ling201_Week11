@@ -460,5 +460,5 @@ knitr::include_graphics("./images/i_survived.jpg")
 
 ### Scheduling
 
-- Thanksgiving week (the week of Nov 23), **recitation will meet on Wednesday**
+- Thanksgiving week (the week of Nov 23), **recitation will be on Wednesday, but it will probably be asynchronous work**
 
